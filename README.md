@@ -21,16 +21,19 @@ End the program
 ```
 ## Developed by: S.HEMAVATHY
 ## Registration no: 212223230076
-def circulate():
-    l=eval(input())
-    n=int(input())
-    l=l[n:]+l[:n]
-    print("After circulating the values are:",l)
+def swap(a,b):
+    c=a
+    a=b
+    b=c
+    print("Swapped values are: {} {}".format(a,b))
+a=int(input())
+b=int(input())
+swap(a,b)
 ```
 
 ## Output
-![image](https://github.com/Hemaatchu/Swapping-two-values/assets/147328300/f6ab422e-2576-40ee-a9d8-c1f5e9fe91da)
-  
+![image](https://github.com/Hemaatchu/Swapping-two-values/assets/147328300/093d6359-4d49-4e70-b3cf-195c9f0cf382)
+
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
